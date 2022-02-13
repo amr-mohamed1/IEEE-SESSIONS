@@ -1,0 +1,112 @@
+
+/* a:link{
+    color:red;
+    text-decoration: none;
+}
+a:active{
+    color:green;
+}
+a:hover{
+    color:#000;
+}
+a:visited{
+    color:blue;
+    text-decoration: underline;
+} */
+
+
+/* ul{
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-position: outside;
+} */
+
+/* 
+ol{
+    list-style-type: upper-roman;
+    display: inline;
+} */
+
+/* .div1 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #efefef;
+
+}
+.div2{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #aaa;
+} */
+
+
+/* .first , .sec{
+    display: inline-block;
+    width:200px;
+    background-color: #efefef;
+   
+}
+.sec{
+    float: right;
+    opacity: .1;
+} */
+
+
+/* body{
+    height: 1500px;
+}
+.first{
+    background-color: #999;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+.sec{
+    background-color: #fff;
+    position: sticky;
+    width: 300px;
+    right: 0;
+    bottom: 0px;
+    top: 90px;
+} */
+/* .first ol li{
+    display: inline;
+    padding: 0 10px;
+}
+.first ol li:hover{
+    color:#ce8e3c;
+    cursor: pointer;
+} */
+/* 
+.first{
+    background-image: linear-gradient(to right,#f00,blue,green,black)
+} */
+
+/* h1{
+    text-shadow: 2px 2px 5px #f00 , 5px 5px 10px #0f0;
+} */
+
+div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #888;
+    box-shadow: -5px 5px 20px 10px #aaa inset;
+    transition: transform .5s ;
+    background-color: red;
+}
+
+
+button{
+    background-color: transparent;
+    border: 1px solid gold;
+    padding: 5px 20px;
+    color:gold;
+    border-radius: 10px;
+    transition:all 3s ease-in-out ;
+}
+button:hover{
+    background-color: gold;
+    color:#fff
+}
